@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bottom nav acm</string>
+    <string name="title_home">Home</string>
+    <string name="title_agenda">Agenda</string>
+    <string name="title_food">Food</string>
+    <string name="title_prizes">Prizes</string>
+    <string name="title_faq">FAQs</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+</resources>
