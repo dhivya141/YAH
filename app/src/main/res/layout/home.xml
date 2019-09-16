@@ -19,6 +19,7 @@
 
         <TextView
             android:id="@+id/yah"
+            android:textColor="#000000"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/button"
@@ -31,7 +32,7 @@
         <TextView
             android:id="@+id/textview"
             android:textAlignment="gravity"
-
+            android:textColor="#000000"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/yah"
@@ -40,6 +41,7 @@
             android:textSize="94sp" />
 
         <TextView
+            android:textColor="#000000"
             android:id="@+id/domain"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
