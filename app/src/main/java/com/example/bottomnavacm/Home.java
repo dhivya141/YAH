@@ -91,13 +91,13 @@ public class Home extends Fragment {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.about:
-                Intent intent1 = new Intent(getActivity(), About.class);
-                getActivity().startActivity(intent1);
+                Intent intentone = new Intent(getActivity(), About.class);
+                getActivity().startActivity(intentone);
+
                 return (true);
             case R.id.exit:
-                Intent intent2 = new Intent(getActivity(), Front.class);
-                getActivity().startActivity(intent2);
-                getActivity().finish();
+                Intent intent = new Intent(getActivity(), Front.class);
+                getActivity().startActivity(intent);
                 return (true);
 
         }
